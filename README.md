@@ -5,7 +5,7 @@
 oh, heya there. welcome to the theoretical corner.
 
 THERE IS ONLY TEXT HERE!!  
-there will barely be any actual formulas, and there definitely won't be any excel files or anything.  
+there will barely be any actual formulas, and there definitely won't be any excel files or anything. however, if this sounds interesting to you, you might figure a way to add this to your own excel (or whatever method you prefer)..  
 in fact, if your only goal is to shoot -40s, you don't even need any of this. current formulas are "good enough" and all you have to do is to input the correct stuff.  
 however, if you are actually interested in truly understanding the game mechanics.. you might find something interesting.
 
@@ -29,6 +29,7 @@ i'm already using that knowledge in my own actual gameplay! i don't think it's q
 ## some of my ultimate goals
 - a formula to generate quality data for any drive without any actual experimentation
 - some general solutions to heights (e.g. ALL toma-heights, dunk-heights, spike-heights for any drive)
+- slopes wtf
 
 if you are interested and/or have something to contribute, please contact me :o  
 if nothing else, you can find me on [twitch](https://www.twitch.tv/fate)
