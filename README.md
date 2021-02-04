@@ -16,8 +16,8 @@ as far as i know, they haven't shared much, but if they did, please tell me :D
 now that it's much easier to set up your own private server, high quality data collecting is accessible to a lot more people.  
 [here's a random youtube video](https://www.youtube.com/watch?v=NaDUITcssYw) (in portuguese, but no big deal) if you need some direction.
 
-## some questions that i'm already satisfied enough with (clickable links Soon™)
-- a theoretical approach to power calculation
+## some questions that i've already put enough time into (clickable links Soon™)
+- [a theoretical approach to power calculation](https://github.com/sera-pangya/illuminati-zone/blob/main/theoretical-power/theoretical-power.md)
 - what's the proper relationship between hwi and vwi
 
 i'm already using that knowledge in my own actual gameplay! i don't think it's quite ready for shipping, though.
@@ -28,7 +28,7 @@ i'm already using that knowledge in my own actual gameplay! i don't think it's q
 
 ## some of my ultimate goals
 - a formula to generate quality data for any drive without any actual experimentation
-- some general solutions to heights (e.g. toma-heights, dunk-heights, spike-heights..)
+- some general solutions to heights (e.g. ALL toma-heights, dunk-heights, spike-heights for any drive)
 
 if you are interested and/or have something to contribute, please contact me :o  
 if nothing else, you can find me on [twitch](https://www.twitch.tv/fate)
