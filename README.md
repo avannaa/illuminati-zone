@@ -17,10 +17,11 @@ now that it's much easier to set up your own private server, high quality data c
 [here's a random youtube video](https://www.youtube.com/watch?v=NaDUITcssYw) (in portuguese, but no big deal) if you need some direction.
 
 ## some possibly interesting questions that i've already put enough time into (clickable links Soon™)
+- [slopes in the game memory](https://www.youtube.com/watch?v=SICC0WO3RFA) (might fully figure it out when i feel like putting a few more hours)
 - [a theoretical approach to power calculation](https://github.com/sera-pangya/illuminati-zone/blob/main/theoretical-power/theoretical-power.md)
+- [wind influence on the distance axis](https://www.youtube.com/watch?v=yKBZao6-_20)
 - heights are hard
 - spike shots don't make sense
-- [slopes in the game memory](https://www.youtube.com/watch?v=SICC0WO3RFA) (might fully figure it out when i feel like putting a few more hours)
 - why nobody has a general calculator for cobras
 
 i'm already using that knowledge in my own actual gameplay! i don't think most of it is quite ready for shipping, though.
