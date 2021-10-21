@@ -16,20 +16,23 @@ as far as i know, they haven't shared much, but if they did, please tell me :D
 now that it's much easier to set up your own private server, high quality data collecting is accessible to a lot more people.  
 [here's a random youtube video](https://www.youtube.com/watch?v=NaDUITcssYw) (in portuguese, but no big deal) if you need some direction.
 
-## some questions that i've already put enough time into (clickable links Soon™)
+## some possibly interesting questions that i've already put enough time into (clickable links Soon™)
 - [a theoretical approach to power calculation](https://github.com/sera-pangya/illuminati-zone/blob/main/theoretical-power/theoretical-power.md)
-- what's the proper relationship between hwi and vwi
+- heights are hard
+- spike shots don't make sense
+- [slopes in the game memory](https://www.youtube.com/watch?v=SICC0WO3RFA) (might fully figure it out when i feel like putting a few more hours)
+- why nobody has a general calculator for cobras
 
-i'm already using that knowledge in my own actual gameplay! i don't think it's quite ready for shipping, though.
+i'm already using that knowledge in my own actual gameplay! i don't think most of it is quite ready for shipping, though.
 
-## some questions that i'm still investigating
-- what's the proper relationship between height and hwi
-- a general approach to the influence of height on power
+## some questions that i'm currently investigating
+- slopes in the game memory
+- [ways to collect data faster](https://www.youtube.com/watch?v=AJmMTskVOyE)
 
 ## some of my ultimate goals
 - a formula to generate quality data for any drive without any actual experimentation
-- some general solutions to heights (e.g. ALL toma-heights, dunk-heights, spike-heights for any drive)
-- slopes wtf
+- some general solutions to heights (i.e. height influence on power and aim for ALL toma-heights, dunk-heights, spike-heights for any drive)
+- ~~slopes wtf~~ (almost done)
 
 if you are interested and/or have something to contribute, please contact me :o  
 if nothing else, you can find me on [twitch](https://www.twitch.tv/fate)
