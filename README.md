@@ -2,38 +2,35 @@
 
 ## introduction
 
-oh, heya there. welcome to the theoretical corner.
+oh, heya there. welcome to the theoretical corner.  
+[end of 2021 edit: it must be said that approximately all of this has been obsoleted by Acrisio's posted solutions~ so, read at your own curiosity]
 
-THERE IS ONLY TEXT HERE!!  
-there will barely be any actual formulas, and there definitely won't be any excel files or anything. however, if this sounds interesting to you, you might figure a way to add this to your own excel (or whatever method you prefer)..  
+THERE IS ONLY TEXT AND FORMULAE HERE!!  
+there won't be any excel files or anything. however, if this sounds interesting to you, you might figure a way to add this to your own excel (or whatever method you prefer)..  
 in fact, if your only goal is to shoot -40s, you don't even need any of this. current formulas are "good enough" and all you have to do is to input the correct stuff.  
 however, if you are actually interested in truly understanding the game mechanics.. you might find something interesting.
 
-if there's one reason why i still care about this game, it's not because i wanna get the best scores possible - it's because i wanna get answers to decade old questions.  
+if there's one reason why i still cared about this game, it's not because i wanna get the best scores possible - it's because i wanted to get answers to decade old questions.  
 i'm sure that some people out there have already figured this stuff out, but it's not too often that people want to talk about the theoretical side of things.  
 as far as i know, they haven't shared much, but if they did, please tell me :D
 
 now that it's much easier to set up your own private server, high quality data collecting is accessible to a lot more people.  
 [here's a random youtube video](https://www.youtube.com/watch?v=NaDUITcssYw) (in portuguese, but no big deal) if you need some direction.
 
-## some possibly interesting questions that i've already put enough time into (clickable links Soon™)
-- [slopes in the game memory](https://www.youtube.com/watch?v=SICC0WO3RFA) (might fully figure it out when i feel like putting a few more hours)
-- [a theoretical approach to power calculation](https://github.com/sera-pangya/illuminati-zone/blob/main/theoretical-power/theoretical-power.md)
+## some possibly interesting questions that i've put enough time into
+
+# texts
+- [slope theory, every mystery revealed :o](https://github.com/sera-pangya/illuminati-zone/blob/main/slope-theory.md)
+- [theory of power calculation](https://github.com/sera-pangya/illuminati-zone/blob/main/power.md)
+- [theory of aim calculation](https://github.com/sera-pangya/illuminati-zone/blob/main/aim.md)
+
+# videos
+- [slopes in the game memory](https://www.youtube.com/watch?v=SICC0WO3RFA)
 - [wind influence on the distance axis](https://www.youtube.com/watch?v=yKBZao6-_20)
-- heights are hard
-- spike shots don't make sense
-- why nobody has a general calculator for cobras
+- [ways to collect data faster](https://www.youtube.com/watch?v=AJmMTskVOyE) *[end of 2021 edit: nowadays it's better to collect data from Acrisio's tools]*
+- [pangya y-slope is irrelevant](https://www.youtube.com/watch?v=Yw9XEveIh8w)
 
-i'm already using that knowledge in my own actual gameplay! i don't think most of it is quite ready for shipping, though.
+# fun
+- [totally legitimate lost seaway hole 3 503y hio frontspin 1w 231y](https://www.youtube.com/watch?v=i4HqGfe6kE0)
 
-## some questions that i'm currently investigating
-- slopes in the game memory
-- [ways to collect data faster](https://www.youtube.com/watch?v=AJmMTskVOyE)
-
-## some of my ultimate goals
-- a formula to generate quality data for any drive without any actual experimentation
-- some general solutions to heights (i.e. height influence on power and aim for ALL toma-heights, dunk-heights, spike-heights for any drive)
-- ~~slopes wtf~~ (almost done)
-
-if you are interested and/or have something to contribute, please contact me :o  
 if nothing else, you can find me on [twitch](https://www.twitch.tv/fate)
