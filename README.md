@@ -33,4 +33,4 @@ now that it's much easier to set up your own private server, high quality data c
 # fun
 - [totally legitimate lost seaway hole 3 503y hio frontspin 1w 231y](https://www.youtube.com/watch?v=i4HqGfe6kE0)
 
-if nothing else, you can find me on [twitch](https://www.twitch.tv/fate)
+if nothing else, you can find me on [twitch](https://www.twitch.tv/fate) or [discord](https://discord.gg/2UYHA2W85d)
