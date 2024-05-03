@@ -3,8 +3,8 @@
 how difficult could power calculation be?? very, in fact.  
 in theory, calculating power is actually easily the most difficult part :o  
 
-luckily, the acceptable margin of error is, like, very wide.  
-the beam can save you, the hole is quite large and all <3
+luckily, the acceptable margin of error is, like, very large (relatively).  
+the beam can save you, the hole is quite big, spin might pull it back in (for some shots), and all that <3
 
 let's start by thinking about the factors that influence power: **terrain**, **slope**, **wind** and **height**.  
 ah, there's also **spin** :o
@@ -20,15 +20,16 @@ example of a terrain table, i got it from some random excel by Suphanut:
 
 **HEY NOOB!!!!** if you thought that the 95% rough discounted 5% off your total power (like, `280y*0.95 = 266y`), that is **ABSOLUTELY NOT** the case.  
 you just look at the table and add the value to your distance.  
-like, if the hole is at 250y and you'll use a tomahawk from some 95% rough, you'll add 4y to your distance `= 254y`.
+like, if the hole is at 250y and you'll use a tomahawk from some 95% rough, you'll add 4y to your distance `= 254y`.  
+of course, you are not to blame for the fact that the game makes no apparent sense. it just is what it is..
 
 is that really all there is to it? for the vast majority of cases, yes.  
 HOWEVER, at a certain power %, the terrain influence starts to get lower, which means that when you want to dunk non-fairways with a very low power % (like 30%), using the standard values will make you overshoot it.  
 i have seen streamers struggling with that on wind hill ;(
 
-unfortunately, i can't go into too many details because i haven't tested that much.
+unfortunately, i can't go into too many details because i haven't tested this effect that much.  
 at a glance, 80% to 100% definitely behaves normally, and up to 60% that effect is probably relatively irrelevant, if it even exists (like, less than 0.1y).  
-however, at 30%, we are already dealing with at least 0.5y difference at a 95% rough :o
+however, at 30%, we are already dealing with a difference of at least 0.5y from a 95% rough :o
 
 
 # slope
@@ -36,20 +37,20 @@ however, at 30%, we are already dealing with at least 0.5y difference at a 95% r
 yes, slope does have influence on power.  
 i already wrote about that in my [slope theory article](https://github.com/sera-pangya/illuminati-zone/blob/main/slope-theory.md), it's all explained there 👀
 
-basically, having a slope with a x-component will ALWAYS send the ball further, and the influence for each break depends on how many breaks there are (more breaks = slightly less influence).  
+basically, having a slope with a x-component will ALWAYS send the ball further, and the influence for each break depends on how many breaks there are (more breaks = slightly less influence for each individual break).  
 using less % power will also very slightly lower the influence for each break.
 
-that effect is considerably important when you are dunking at nearly full power, or when there are a lot of breaks.  
+that effect is considerably important when you are dunking at nearly full power or when there are a lot of breaks, as it can easily add up to over 0.5y.  
 thus, if your calculations don't consider that, you may have problems dunking distances over 300y~
 
 
 # wind
 
-everyone knows that one, it's `wind * angle * influence`. is that it? yes, it is.  
+everyone knows that one, it's `wind * angle * influence`. is that all? yes indeed it is.  
 however, obviously, the difficult part here is figuring out the wind influence.
 
-here's something very FUN and INTERESTING: the wind influence is higher on the distance-axis, compared to the aim-axis (except for spikes, where it's the opposite).  
-in other words.. if your hwi (horizontal wind influence) is 1.0, your "vwi" (influence of wind on power) will be greater than 1.0.  
+here's something very FUN and INTERESTING: the wind influence is higher on the distance-axis than on the aim-axis (except for spikes, where it's the opposite).  
+in other words.. if your hwi (horizontal wind influence, i.e. influence of wind on aim) is 1.0, your "vwi" (influence of wind on power) will be greater than 1.0.  
 greater by how much? that depends on your shot and on the power %.
 
 i'll paste some dunk 1w 332+0 values that i collected, just to give some idea:
@@ -61,19 +62,19 @@ i'll paste some dunk 1w 332+0 values that i collected, just to give some idea:
 
 as one can see from that data, the vwi is approximately 8% higher than the hwi at 100%, and that difference keeps increasing until it's 40% higher (!) at 10% power.
 
-so well, that's pretty crazy. is that all? no, that's not all.  
+so well, that's pretty weird. is that all? no, that's *still* not all.  
 there's another highly mysterious effect: the more "backwards" the wind is, the stronger it is.  
-really strange? i agree, watch my demo and if you're lucky you'll get it: https://www.youtube.com/watch?v=yKBZao6-_20
+is that sounding really weird? i agree, watch my demo and if you're lucky you'll get it: https://www.youtube.com/watch?v=yKBZao6-_20
 
 generally speaking, that effect is relatively irrelevant (about ~2% difference on the vwi for dunks on strong winds).  
-however, for spikes, it can get up to 5% difference for 7-wind :o considering how spike wind influences are relatively pretty high, the difference between doing that or not can be higher than 0.5y!  
-that effect applies to EVERY shot.
+however, for spikes, it can get up to 5% difference for 7-wind :o considering how spike wind influences are already relatively pretty high to begin with, the influence of that effect can easily be greater than 0.5y!  
+in any case, that effect applies to *any* shot.
 
 
 # height
 
 that's also an easy one, you just do `height * H`. right?  
-for those who don't know, H is a value that represents the influence of each 1m on power.  
+for those who don't know, H is a value that represents the influence of each 1m of elevation on power.  
 like, if you have a H of 0.8 and -20 height, you'll discount `0.8 * 20` out of the distance `= 16y`.
 
 to start off, i'll post tonycheese's diagram that he made before 2010 (!) and i post on like half my articles:
@@ -85,14 +86,14 @@ there are two very important takeaways from that diagram:
 - **the height itself** changes the H
 
 **first important thing:** as power % gets lower, H increases (note how the arc at 80% is more influenced by height).  
-any exceptions? only when using drugs, like, dunk using 20% or less power, or cobra shots.
+any exceptions? only in shots under the influence of heavy drugs, like, dunks using 20% or less power, or cobra shots.
 
-**second important thing:** the more + the relative height is, the higher the H. the reasoning is similar.  
+**second important thing:** the more + (uphill) the relative height is, the greater the H. the reasoning is similar.  
 if i recall correctly, the only exception is also the cobra shot in + heights~ nice
 
 in that sense, the greatest mistake in the tutorials published by our great predecessors was to not give any solutions as to how to adjust the H according to the height itself (and most didn't even mention the issue).  
 that's the main reason as to why many old excels included special calculations for, like, ice spa hole 17, or you could find notes like "+1 caliper pink wind 16" :o  
-even for those that knew that this effect existed, it was difficult to put some precise numbers to it. however, most new excels already can put pretty accurate values to it~
+even for those that understood that this effect existed, it was difficult to put some precise numbers to it. however, most new excels already put pretty accurate values to it, as data collecting tech improved~
 
 to give an example of how that works practically, i'll paste some dunk 1w 332+0y 20-spin H-values that i collected.  
 **power %** column, **height** row:
@@ -118,13 +119,13 @@ generally speaking, lower drives will have higher H-values, and the H-values wil
 # spin
 
 most people have already seen, in some form, adjusting the spin for dunks.  
-why do that? well that's an easy question, more backspin = more reach. in many cases, the difference between two calipers will be too large (like, nearly 1y), and then it's useful to use spin to simulate "half calipers".
+why would one do that? well that's an easy question, more backspin = more reach. in many cases, the difference between two calipers will be too large (like, nearly 1y), and then it's useful to use spin to simulate "half calipers".
 
 so, let's move on to a more difficult question: how much is 1 spin worth?  
 as always, that depends on your shot and the % power. it also depends on the spin itself :o  
 at low %s, one spin is worth MUCH less. also, the more backspin you put in, the higher the value of 1 spin.
 
-as an example, here are some values for 1w dunk 332y (difference 20 spin to 21 spin):
+as an example, here are some values for 1w dunk 332y (distance gained by going from 20 spin to 21 spin):
 
 | % | 100 | 95 | 90 | 85 | 80 | 75 | 70 | 65 | 60 | 55 | 50 | 40 | 30 | 20 | 10 |
 | :-: | :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |
@@ -153,29 +154,29 @@ that's one of the reasons (but not the main one) why dunks with curve are diffic
 
 so, now that i know how each factor works in isolation, i can just add them all up and we have Good Power Calculation. right??
 
-let's say we start with the distance. then let's consider some random values..
-first, we add `+4.0` for the terrain.  
-after that, we consider that result (after terrain) to decide which H to use, and calculate `height * H`, add `+6.0` for the height.  
-after that, we consider that new result (after terrain and height) to decide on the wind influence, and calculate `wind * angle * influence`, add `+5.0` for the wind.
+let's say we start with the distance. then let's consider some random values for the sake of example.. hole is at `250.0y`.  
+considering terrain, we are in some typical `95% rough`, so add `+4.0` for the terrain `(250+4 = 254y)`.  
+after that, we consider that result (after terrain) to decide which H to use, and calculate `height * H`, so we consider the H of 254y for this step and let's say that the result here would be adding `+6.0y`.  
+after that, we consider that new result (after terrain and height, `250+4+6 = 260y`) to decide on the wind influence, and calculate `wind * angle * influence`, so we consider the vwi of 260y and let's say the end result is adding `+5.0y` for this headwind.
 
-thus, our power result will be `distance + 4.0 + 6.0 + 5.0`. right? no.  
-what's the problem? the problem is that all those factors influence the power result, but when you change the power, that will also change our H and wind influence. circular reference 👀
+thus, our power result will be `distance + 4.0 + 6.0 + 5.0 (265.0y)`. right? no.  
+so uh, what's the problem? the problem is that all those factors influence the power result, but when you change the power, that will also change our H and wind influence. circular reference 👀
 
-in this example, we considered our H for the % that we would use considering distance + terrain, but then we added another 11y to the distance!
+in this example, we considered our H for the % that we would use considering just `distance + terrain (=254y)`, but then we added another 11y to the distance!
 obviously that's going to result in a relatively large difference on the final % and, as a consequence, on the H.  
 the same thing applies for the wind - the higher the %, the higher the vwi.
 
 how do we even deal with that? good luck <3  
-one possibility is to just brute force it, test ALL the possible %s and see which % comes the closest. that allows us to know for a fact that we are using the correct values.  
+one possibility is to just brute force it, i.e. test ALL the possible %s and see which % comes the closest. that allows us to know for a fact that we are using the correct values.  
 another way is to apply some sort of correction in the H and vwi estimations.
 
-if using the "corrections" method, it's probably best to start with the factors that are least influenced by the %.
+if using the "corrections" method, it's probably best to start with the factors that are least influenced by the %.  
 the order is terrain, slope, wind, height.
 
 
 # final thoughts
 
-many of the explained effects aren't considered even in very good excels, which proves that the allowed margin of error for power calculation is indeed very wide (and that those effects are relatively small, for the most part).
+many of the aforementioned effects aren't considered even in very good excels, which proves that the allowed margin of error for power calculation is indeed very wide (and that those effects are relatively small, for the most part).
 
 in practical terms, there are two things that are most important:
 - reasonable approximations for H (according to height and %)
@@ -183,4 +184,4 @@ in practical terms, there are two things that are most important:
 
 that's it, good luck :)  
 if you have any questions, too bad, i can't really answer everyone's questions T_T  
-maybe join Our humble [discord server](https://discord.gg/2UYHA2W85d), if you're lucky you'll get answers~
+you could join the [dead discord server](https://discord.gg/2UYHA2W85d) or just find me elsewhere i guess~
