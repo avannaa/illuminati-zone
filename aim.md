@@ -52,14 +52,17 @@ the tldr about slopes on aim is that, since slope and wind are affected by the s
 thus, my slope formula is `slope * final hwi * % * constant`.
 
 what's that "constant" about? it's basically a value that relates your slope counting method to the hwi.  
-like, if you count by pixels, you'll use a different constant to those that count breaks.  
-however, in any case, the final result on aim should always be the same.
+like, if you count by pixels, you'll use a different constant to those who count breaks.  
+in any case, the final result of the slope formula on aim should always be the same, of course.
 
 
 # spin
 
 repeating what was said on the power part, putting more backspin also results in a slight increase in wind influences [(see BooN's video)](https://www.youtube.com/watch?v=cVKGVM-hlwE).  
-you can roughly estimate it as an 1% increase per spin~ (that value also varies according to conditions)
+you can roughly estimate it as an 1% increase per spin~ (that value also varies according to conditions).  
+
+interestingly enough, that ends up meaning that (in most cases) using 30 frontspin will result in having to aim less than using 30 backspin, even though 30 frontspin will require a considerably higher % :o  
+i don't really like it much though, as the sharper landing arc means you get a bit less leeway with power, but it's still kinda cool.
 
 
 # turning effect
@@ -70,16 +73,16 @@ let's say that you're doing some calculations for some relatively ridiculous con
 when you move 69 PB, the angle will have changed, probably even quite considerably so (depending on how far the hole is).
 
 if you aren't accounting for it, this effect can be quite dangerous in situations where the wind influence is high, or the wind isn't too lateral.  
-this is also very dangerous in situations with ugly slopes, since the "effective slope" can change very quickly. like, aiming at the hole you have 8.6 breaks, but after aiming it's now 9.2 breaks..
+this is also very dangerous in situations with ugly slopes, since the "effective slope" can change very quickly. like, aiming at the hole you have 8.6 breaks, but after aiming it's now 9.4 breaks..
 
 so, you can either consider that somehow during calculation, or recalculate everything after aiming.  
-it's just important to know that this is a thing that exists~
+it's just important to know that it is a thing that exists~
 
 
 # final thoughts
 
 wind and slope influence decrease VERY quickly as you use less % power, so dunking with low %s is extremely efficient.  
-the only drawback is that you don't get pangs ;(
+the only drawback is that you don't get many pangs ;(
 
 why are slopes terrifying? on one hand, it's difficult to read the slope correctly out of the user interface and, to make things worse, most excels use inaccurate formulae for slopes.  
 that ends up resulting in quite understandable slopephobia 👀
@@ -88,5 +91,5 @@ that ends up resulting in quite understandable slopephobia 👀
 you can misread the wind by a few degrees with medium wind, get the slope wrong by quite a bit and it still works \o/
 
 that's it, good luck :)  
-if you have any questions, too bad, i can't really answer everyone's questions T_T  
-maybe join Our humble [discord server](https://discord.gg/2UYHA2W85d), if you're lucky you'll get answers~
+if you have any questions, too bad, the game is unfair and broken and now that's also your problem.  
+you could join the [dead discord server](https://discord.gg/2UYHA2W85d) or just find me elsewhere i guess~
